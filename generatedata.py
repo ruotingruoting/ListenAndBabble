@@ -26,6 +26,8 @@ Options:
 
 __version__ = '0.1.0'
 
+import sys
+sys.path.append('/home/elu/lib/python2.7/site-packages')
 import gzip
 import os
 from brian import kHz, Hz
